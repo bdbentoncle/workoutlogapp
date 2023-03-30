@@ -1,0 +1,85 @@
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+button[type="submit"] {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  height: 40px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0063cc;
+}
+
+table {
+  max-width: 800px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-size: 16px;
+  line-height: 1.4;
+}
+thead {
+  background-color: #007bff;
+  color: #fff;
+}
+th {
+  padding: 10px;
+}
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  input {
+    margin-bottom: 20px;
+  }
+}
+#clear-button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  height: 40px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+#clear-button:hover {
+  background-color: #c82333;
+  color: #fff;
+}
